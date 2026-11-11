@@ -1,6 +1,6 @@
 /* GitHub Pages Public UI. Never put API secrets or admin passwords here. */
 const SETTINGS={
-  WORKER_URL:'PASTE_YOUR_WORKER_URL_HERE',
+  WORKER_URL:'https://bangsai-donation-api.academicbangsaiwit.workers.dev',
   ADMIN_APP_URL:'' // Optional: Existing Apps Script /exec URL, for school staff only
 };
 const $=id=>document.getElementById(id);
